@@ -28,6 +28,7 @@ final class ASEC_Plugin {
 
 		if ( is_admin() ) {
 			new ASEC_Admin();
+			new ASEC_Donations();
 		}
 	}
 

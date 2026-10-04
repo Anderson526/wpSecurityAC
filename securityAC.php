@@ -2,7 +2,7 @@
 /*
 Plugin Name: Core Security & Login Protector - toolkitAC
 Plugin URI: https://anderson526.github.io/portfolio-profesional/
-Description: Protege tu sitio de ataques de fuerza bruta, oculta la URL de acceso y aplica endurecimiento básico sin configuraciones técnicas. Parte de la suite AnderC Essential.
+Description: Protege tu sitio de ataques de fuerza bruta, oculta la URL de acceso y aplica endurecimiento básico sin configuraciones técnicas. Parte de la suite AC Essential.
 Version: 1.0.0
 Author: Anderson Chila
 Author URI: https://anderson526.github.io/portfolio-profesional/

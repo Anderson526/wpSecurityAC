@@ -18,8 +18,8 @@ class ASEC_Admin {
 
 	public function register_menu() {
 		add_menu_page(
-			__( 'AnderC Security', 'anderc-security' ),
-			__( 'AnderC Security', 'anderc-security' ),
+			__( 'AC Security', 'anderc-security' ),
+			__( 'AC Security', 'anderc-security' ),
 			'manage_options',
 			self::SLUG,
 			array( $this, 'render' ),
@@ -72,7 +72,7 @@ class ASEC_Admin {
 		$s = ASEC_Plugin::get_settings();
 		?>
 		<div class="wrap anderc-wrap">
-			<h1><span class="anderc-badge">AnderC</span> <?php esc_html_e( 'Core Security & Login Protector', 'anderc-security' ); ?></h1>
+			<h1><span class="anderc-badge">AC</span> <?php esc_html_e( 'Core Security & Login Protector', 'anderc-security' ); ?></h1>
 
 			<?php if ( isset( $_GET['updated'] ) ) : // phpcs:ignore WordPress.Security.NonceVerification ?>
 				<div class="notice notice-success is-dismissible"><p><?php esc_html_e( 'Ajustes guardados correctamente.', 'anderc-security' ); ?></p></div>
